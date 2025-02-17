@@ -1,0 +1,31 @@
+name: JSON Validation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli
+
+      - name: Validate JSON files
+        run: |
+          ajv validate -s schema.json -d "capabilities/*.json"
+          ajv validate -s schema.json -d "value_streams/*.json"
+          ajv validate -s schema.json -d "stakeholders/*.json"
+          ajv validate -s schema.json -d "information_concepts/*.json"
+          ajv validate -s schema.json -d "organization/*.json"
+          ajv validate -s schema.json -d "initiatives/*.json"
