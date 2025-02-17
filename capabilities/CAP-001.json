@@ -1,5 +1,17 @@
 {
   "id": "CAP-001",
   "name": "Policy Administration",
-  "description": "Manages the lifecycle of insurance policies, including issuance, endorsement, renewal, and cancellation."
+  "description": "Manages the lifecycle of insurance policies, including issuance, endorsement, renewal, and cancellation.",
+  "sub_capabilities": [
+    {
+      "id": "CAP-001-01",
+      "name": "Policy Issuance",
+      "description": "Handles policy creation and document generation."
+    },
+    {
+      "id": "CAP-001-02",
+      "name": "Policy Renewal",
+      "description": "Manages automatic and manual policy renewals."
+    }
+  ]
 }

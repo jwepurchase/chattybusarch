@@ -1,0 +1,17 @@
+{
+  "id": "CAP-002",
+  "name": "Underwriting",
+  "description": "Evaluates risks and determines appropriate premium pricing, terms, and conditions for insurance policies.",
+  "sub_capabilities": [
+    {
+      "id": "CAP-002-01",
+      "name": "Risk Assessment",
+      "description": "Analyzes risk factors to determine policy eligibility."
+    },
+    {
+      "id": "CAP-002-02",
+      "name": "Pricing & Rating",
+      "description": "Determines premium costs based on actuarial models."
+    }
+  ]
+}

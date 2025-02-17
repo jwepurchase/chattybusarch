@@ -1,0 +1,17 @@
+{
+  "id": "CAP-003",
+  "name": "Claims Management",
+  "description": "Manages the claims lifecycle, including FNOL (First Notice of Loss), assessment, adjudication, and payment.",
+  "sub_capabilities": [
+    {
+      "id": "CAP-003-01",
+      "name": "Claims Intake",
+      "description": "Captures FNOL and initiates claims processing."
+    },
+    {
+      "id": "CAP-003-02",
+      "name": "Claims Adjudication",
+      "description": "Assesses claims against policy terms and coverage."
+    }
+  ]
+}

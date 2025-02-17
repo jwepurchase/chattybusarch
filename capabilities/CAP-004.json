@@ -1,0 +1,17 @@
+{
+  "id": "CAP-004",
+  "name": "Reinsurance Management",
+  "description": "Handles reinsurance agreements to mitigate financial risks by sharing liabilities with reinsurers.",
+  "sub_capabilities": [
+    {
+      "id": "CAP-004-01",
+      "name": "Reinsurance Agreement Management",
+      "description": "Tracks and administers reinsurance contracts."
+    },
+    {
+      "id": "CAP-004-02",
+      "name": "Risk Ceding & Recovery",
+      "description": "Manages risk transfer and claim recovery processes."
+    }
+  ]
+}
