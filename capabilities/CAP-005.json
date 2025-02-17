@@ -5,7 +5,7 @@
   "sub_capabilities": [
     {
       "id": "CAP-005-01",
-      "name": "Document Storage & Retrieval",
+      "name": "Document Storage and Retrieval",
       "description": "Manages secure storage and easy retrieval of policy documents, claims records, and regulatory files."
     },
     {
@@ -15,8 +15,13 @@
     },
     {
       "id": "CAP-005-03",
-      "name": "Compliance & Records Management",
-      "description": "Ensures content compliance with regulatory standards and manages record retention policies."
+      "name": "Content Compliance Management",
+      "description": "Ensures content meets regulatory standards and legal requirements."
+    },
+    {
+      "id": "CAP-005-04",
+      "name": "Records Retention Management",
+      "description": "Manages retention policies and ensures proper archival and disposal of records."
     }
   ]
 }
