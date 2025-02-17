@@ -5,21 +5,26 @@
   "sub_capabilities": [
     {
       "id": "CAP-005-01",
-      "name": "Document Storage and Retrieval",
-      "description": "Manages secure storage and easy retrieval of policy documents, claims records, and regulatory files."
+      "name": "Document Storage Management",
+      "description": "Manages secure storage of policy documents, claims records, and regulatory files."
     },
     {
       "id": "CAP-005-02",
+      "name": "Document Retrieval Management",
+      "description": "Ensures efficient search, indexing, and access to stored documents."
+    },
+    {
+      "id": "CAP-005-03",
       "name": "Content Publishing",
       "description": "Supports the publication and distribution of policy guidelines, claims procedures, and marketing materials."
     },
     {
-      "id": "CAP-005-03",
+      "id": "CAP-005-04",
       "name": "Content Compliance Management",
       "description": "Ensures content meets regulatory standards and legal requirements."
     },
     {
-      "id": "CAP-005-04",
+      "id": "CAP-005-05",
       "name": "Records Retention Management",
       "description": "Manages retention policies and ensures proper archival and disposal of records."
     }
