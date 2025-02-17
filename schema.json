@@ -3,41 +3,40 @@
   "type": "object",
   "properties": {
     "id": {
-      "type": "string"
+      "type": "string",
+      "description": "Unique identifier for the capability."
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "description": "Name of the capability."
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "description": "Detailed description of what the capability does."
     },
-    "stages": {
+    "sub_capabilities": {
       "type": "array",
+      "description": "List of Level 2 and Level 3 sub-capabilities.",
       "items": {
-        "type": "string"
-      }
-    },
-    "role": {
-      "type": "string"
-    },
-    "attributes": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "responsibilities": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "objectives": {
-      "type": "array",
-      "items": {
-        "type": "string"
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the sub-capability."
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the sub-capability."
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed description of the sub-capability."
+          }
+        },
+        "required": ["id", "name", "description"]
       }
     }
   },
-  "required": ["id", "name"]
+  "required": ["id", "name", "description"]
 }
+
