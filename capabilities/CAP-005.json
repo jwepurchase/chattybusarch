@@ -1,0 +1,22 @@
+{
+  "id": "CAP-005",
+  "name": "Content Management",
+  "description": "Handles the creation, storage, and distribution of digital and physical content within the insurance organization.",
+  "sub_capabilities": [
+    {
+      "id": "CAP-005-01",
+      "name": "Document Storage & Retrieval",
+      "description": "Manages secure storage and easy retrieval of policy documents, claims records, and regulatory files."
+    },
+    {
+      "id": "CAP-005-02",
+      "name": "Content Publishing",
+      "description": "Supports the publication and distribution of policy guidelines, claims procedures, and marketing materials."
+    },
+    {
+      "id": "CAP-005-03",
+      "name": "Compliance & Records Management",
+      "description": "Ensures content compliance with regulatory standards and manages record retention policies."
+    }
+  ]
+}
