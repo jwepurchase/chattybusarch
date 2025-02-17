@@ -1,0 +1,9 @@
+{
+  "id": "VS-001",
+  "name": "Order Fulfillment",
+  "stages": [
+    "Order Placement",
+    "Processing",
+    "Shipment"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "IC-001",
+  "name": "Customer Profile",
+  "attributes": [
+    "Name",
+    "Email",
+    "Phone"
+  ]
+}
